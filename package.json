@@ -1,0 +1,43 @@
+{
+  "name": "phim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Huutai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-json": "^1.0.0",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^8.1.0",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "rand-token": "^1.0.1",
+    "redis": "^4.2.0",
+    "sharp": "^0.30.7",
+    "uuid": "^8.3.2",
+    "xss": "^1.0.13",
+    "xss-clean": "^0.1.1"
+  }
+}
